@@ -3,7 +3,9 @@ package fcss_dev.uber.email_service.application;
 import fcss_dev.uber.email_service.adapters.EmailSenderGateway;
 import fcss_dev.uber.email_service.core.EmailSenderUserCase;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmailSenderService implements EmailSenderUserCase {
 
     private final EmailSenderGateway emailSenderGateway;
