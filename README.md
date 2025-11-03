@@ -5,8 +5,8 @@
 ## Como instalar e configurar
 ```bash
     # Clonar o repositório
-    git clone https://github.com/fcss-dev/uber-challenge-fullstack.git
-    cd uber-challenge-fullstack
+    git clone https://github.com/fcss-dev/uber-challenge-backend.git
+    cd uber-challenge-backend
 ```
 ```bash
     # Configurações AWS SES
