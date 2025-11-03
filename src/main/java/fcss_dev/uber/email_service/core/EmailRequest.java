@@ -1,4 +1,3 @@
 package fcss_dev.uber.email_service.core;
 
-public record EmailRequest(String to, String subject, String body) {
-}
+public record EmailRequest(String to, String subject, String body) {}
